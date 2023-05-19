@@ -1,12 +1,15 @@
 header{
     background: rgb(194, 241, 235);
-    background: linear-gradient(90deg, rgb(194, 241, 235) 0%, rgb(234, 235, 230) 35%, rgb(246, 230, 230) 100%);
+    background: linear-gradient(90deg, rgb(97 185 174) 0%, rgb(201 219 131) 35%, rgb(246, 230, 230) 100%);
 }
 
 .navbar{
     display: flex;
     justify-content: space-around;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar>h1{
+    margin-left: -5%;
 }
 .navbar>ul{
     display: flex;
@@ -23,15 +26,47 @@ header{
     display: flex;
     justify-content: space-around;
 }
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .left>h1{
     font-size: 3.5rem;
     margin-bottom: 0;
 }
 .left>h2{
+    font-family: sans-serif;
     margin-top: 0;
-    font-size: 4.5rem;
+    font-size: 2.5rem;
     font-weight: 900;
 }
 .right>img{
-   height: 70vh;
+   height: 80%
+}
+.left-btn-one{
+    background-color: #4c4846;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    margin: 5px;
+}
+.left-btn-one:hover{
+    background-color: #1d9b04;;
+    color: #ffffff;
+    transition: .5s;
+}
+.left-btn-two{
+    background-color: rgb(224, 217, 217) ;
+    color: #4c4846;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    margin: 15px;
+}
+.left-btn-two:hover{
+    background-color: #cccccc;;
+    color: #ffffff;
+    transition: .5s;
 }
