@@ -149,6 +149,9 @@ body{
 .for-mobile{
     display: none;
 }
+.only-mob{
+    display: none;
+}
 /* ---------------footer_section-------------- */
 .footer-section{
     display: flex;
