@@ -135,6 +135,7 @@ body{
     text-decoration: none;
     color: #ffffff;
 }
+/* ---------------footer_section-------------- */
 .footer-section{
     display: flex;
     justify-content: space-around;

@@ -1,4 +1,4 @@
-@media (max-width: 2652px) {
+@media (max-width: 2560px) {
     .navbar>h1 {
         margin-left: 0;
         font-size: 2.5rem;
@@ -19,10 +19,14 @@
 
     .left>h2 {
         font-size: 7.5rem;
+        margin-bottom: 20px;
     }
 
     .right>img {
         height: 550px;
+    }
+    .product-ariya>img{
+        height: 460px;
     }
 }
 
@@ -46,6 +50,21 @@
 
     .right>img {
         height: 350px;
+    }
+    .product-ariya>img{
+        height: 200px;
+    }
+    .fichar-product{
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .product-detaild{
+        margin-top: 25px;
+    }
+    .product-detaild>h1 {
+        font-size: 4rem;
+        font-weight: 800;
+        line-height: 70px;
     }
 }
 
