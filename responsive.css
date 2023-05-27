@@ -1,4 +1,4 @@
-@media (max-width: 2560px) {
+@media (max-width: 2851px){
     .navbar>h1 {
         margin-left: 0;
         font-size: 2.5rem;
@@ -25,8 +25,41 @@
     .right>img {
         height: 550px;
     }
+    .prodict {
+        font-size: 1.5rem;
+    }
     .product-ariya>img{
-        height: 460px;
+        height: 450px;
+    }
+    .fichar-product{
+        justify-content:space-around;
+        align-items: flex-start;
+    }
+    .fichar-product>img{
+        height: 660px;
+    }
+    .product-detaild{
+        margin-top: 25px;
+    }
+    .product-detaild>h1 {
+        font-size: 6rem;
+        font-weight: 800;
+        line-height: 70px;
+        margin-bottom: 29px;
+    }
+    .product-detaild>h4{
+        font-size: 2rem;
+    }
+    .product-detaild>h3{
+        font-size: 2rem;
+    }
+    .product-detaild>h1 {
+        font-size: 3rem;
+        font-weight: 800;
+    }
+    .footer-section{
+        justify-content: space-evenly;
+        font-size: 1.5rem;
     }
 }
 
@@ -47,24 +80,37 @@
     .left>h2 {
         font-size: 3.5rem;
     }
-
+    .product-detaild>h4,h3,h2{
+        font-size: 1rem;
+        margin: 10px 0px 10px 0px;
+    }
     .right>img {
         height: 350px;
     }
+    .prodict {
+        font-size: 1rem;
+    }
     .product-ariya>img{
-        height: 200px;
+        height: 120px;
     }
     .fichar-product{
-        justify-content: center;
-        align-items: flex-start;
+        justify-content: space-evenly;
+        align-items: flex-start; 
     }
     .product-detaild{
         margin-top: 25px;
+        font-size: 1.5rem;
     }
     .product-detaild>h1 {
-        font-size: 4rem;
-        font-weight: 800;
-        line-height: 70px;
+        font-size: 3.5rem;
+        font-weight: 700;
+        line-height: 50px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .footer-section{
+        justify-content: space-evenly;
+        font-size: 1rem;
     }
 }
 
@@ -90,9 +136,11 @@
     }
 
     .product-ariya>img {
-        height: 190px;
+        height: 120px;
     }
-
+    .fichar-product>img{
+        height: 440px;
+    }
     .left>h1 {
         font-size: 2.5rem;
         margin-bottom: 0;
@@ -104,7 +152,7 @@
     }
 }
 
-@media(max-width:620px) {
+@media(max-width:800px) {
     .navbar {
         flex-direction: column;
         align-items: center;
@@ -128,6 +176,22 @@
         justify-content: space-around;
         flex-direction: column;
         align-items: center;
+        text-align: left;
+        padding: 15px;
+    }
+    .for-mobile{
+        display: block;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+   .for-pc{
+    display: none;
+   }
+    .only-mob{
+        display: block;
+    }
+    .ficher-pro-img{
+        display: none;
     }
     .footer-section{
         flex-direction: column;

@@ -80,6 +80,9 @@ body{
     transition: .5s;
 }
 /* ----------Product section--------------------- */
+.prduct{
+    margin-bottom: 25px;
+}
 .producct-section{
     display: flex;
     justify-content: center;
@@ -105,8 +108,12 @@ body{
 }
 .fichar-product{
     margin-top: 45px;
+    margin-bottom: 25px;
     display: flex;
     justify-content: space-around;
+}
+.onli-mob{
+    display: none;
 }
 .product-detaild{
     margin-top: 7%;
@@ -114,6 +121,10 @@ body{
 .product-detaild>h1{
     font-size: 2rem;
     font-weight: 300;
+}
+.product-detaild>h2{
+    margin-top: 5;
+    margin-bottom: 10;
 }
 .product-detaild>a{
     margin-top: 15px;
@@ -135,11 +146,17 @@ body{
     text-decoration: none;
     color: #ffffff;
 }
+.for-mobile{
+    display: none;
+}
 /* ---------------footer_section-------------- */
 .footer-section{
     display: flex;
     justify-content: space-around;
     margin-top: 35px;
+}
+.contact-section>h1{
+    margin-top: 0;
 }
 .social{
     display: flex;
