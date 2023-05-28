@@ -5,7 +5,7 @@ body{
     background: rgb(194, 241, 235);
     background: linear-gradient(910deg, rgb(97 185 174) 0%, rgb(201 219 131) 35%, rgb(246, 230, 230) 100%) no-repeat;
 }
-
+/* ------------------navbar-section-css---------------------------- */
 .navbar{
     display: flex;
     justify-content: space-around;
@@ -32,6 +32,7 @@ body{
     color: #ffffff;
     border-bottom: 2px solid #ffffff;
   }
+  /* ----------------hero-section-css---------------- */
 .hero-section {
     display: flex;
     justify-content: space-evenly;
@@ -79,7 +80,7 @@ body{
     color: #ffffff;
     transition: .5s;
 }
-/* ----------Product section--------------------- */
+/* ----------Product-section-css-------------------- */
 .prduct{
     margin-bottom: 25px;
 }
@@ -106,6 +107,7 @@ body{
 .product-ariya>p{
     margin-bottom: 20px;
 }
+/* ---------------------fichar-product-section-css---------------------- */
 .fichar-product{
     margin-top: 45px;
     margin-bottom: 25px;
@@ -152,7 +154,7 @@ body{
 .only-mob{
     display: none;
 }
-/* ---------------footer_section-------------- */
+/* ---------------footer-section-css------------- */
 .footer-section{
     display: flex;
     justify-content: space-around;
