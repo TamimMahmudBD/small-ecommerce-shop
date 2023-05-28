@@ -1,6 +1,6 @@
 @media (max-width: 2851px){
     .navbar>h1 {
-        margin-left: 0;
+        margin-left: -90;
         font-size: 2.5rem;
     }
 
@@ -12,7 +12,9 @@
         display: flex;
         justify-content: space-around;
     }
-
+    .left{
+        margin-left: 0;
+    }
     .left>h1 {
         font-size: 6.5rem;
     }
@@ -21,7 +23,9 @@
         font-size: 7.5rem;
         margin-bottom: 20px;
     }
-
+    .left-btn {
+        font-size: 2.5rem;
+    }
     .right>img {
         height: 550px;
     }
@@ -35,11 +39,12 @@
         justify-content:space-around;
         align-items: flex-start;
     }
-    .fichar-product>img{
-        height: 660px;
+    .ficher-pro-img{
+        height: 540px;
     }
     .product-detaild{
         margin-top: 25px;
+        margin-left: 50px;
     }
     .product-detaild>h1 {
         font-size: 6rem;
@@ -80,15 +85,18 @@
     .left>h2 {
         font-size: 3.5rem;
     }
+    .left-btn {
+        font-size: 1rem;
+    }
     .product-detaild>h4,h3,h2{
         font-size: 1rem;
         margin: 10px 0px 10px 0px;
     }
     .right>img {
-        height: 350px;
+        height: 300px;
     }
     .prodict {
-        font-size: 1rem;
+        font-size: .95rem;
     }
     .product-ariya>img{
         height: 120px;
@@ -99,14 +107,21 @@
     }
     .product-detaild{
         margin-top: 25px;
+        margin-left: 20px;
         font-size: 1.5rem;
     }
     .product-detaild>h1 {
-        font-size: 3.5rem;
+        font-size: 3rem;
         font-weight: 700;
         line-height: 50px;
         margin-top: 0;
         margin-bottom: 0;
+    }
+    .ficher-pro-img{
+        height: 340px;
+    }
+    .ficher-btn {
+        font-size: 1rem;
     }
     .footer-section{
         justify-content: space-evenly;
@@ -114,7 +129,7 @@
     }
 }
 
-@media(max-width:980px) {
+@media(max-width:1080px) {
     .navbar>h1 {
         margin-left: 20px;
     }
@@ -134,7 +149,11 @@
         margin-bottom: 50px;
         text-align: center;
     }
-
+    .product-ariya {
+        text-align: center;
+        padding: 12px 15px 30px 15px ;
+        margin: 8px;
+    }
     .product-ariya>img {
         height: 120px;
     }
