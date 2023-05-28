@@ -137,6 +137,7 @@
     .navbar>ul {
         margin-right: 25px;
         margin-top: 25px;
+        padding: 15px;
     }
 
     .right>img {

@@ -11,8 +11,9 @@ body{
     justify-content: space-around;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.navbar>h1{
-    margin-left: -5%;
+.navbar>a{
+    text-decoration: none;
+    color: #4c4846;
 }
 .navbar>ul{
     display: flex;
