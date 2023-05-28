@@ -66,6 +66,9 @@
         justify-content: space-evenly;
         font-size: 1.5rem;
     }
+    .contact-section {
+        margin-right: 480px;
+    }
 }
 
 @media(max-width:1600px) {
@@ -127,6 +130,9 @@
         justify-content: space-evenly;
         font-size: 1rem;
     }
+    .contact-section {
+        margin-right: 90px;
+    }
 }
 
 @media(max-width:1080px) {
@@ -169,6 +175,9 @@
     .navbar>ul>li>a {
         font-size: 1rem;
         margin-bottom: 0;
+    }
+    .contact-section {
+        margin-right: 180px;
     }
 }
 
